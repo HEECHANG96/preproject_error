@@ -10,3 +10,6 @@
 
 - CSS 관련
   - [ ] svg 이미지 가져오기 : (https://sunshine7e7.tistory.com/26)  
+
+- Git 관련
+  - [ ]  작업중인 브랜치를 add , commit하고 branch 변경하기가 애매한 상황 (https://whoyoung90.tistory.com/9)
