@@ -7,13 +7,13 @@
      - 코드를 저장할 때 자동으로 포맷팅된다.
      - 명시적으로 "Format Document" 또는 "Format Selection" 명령을 실행할 때 사용된다.
      - 편집기에서 코드를 작성하는 동안 실시간으로 포맷팅될 수 있다.
-
+---
 - CSS 관련
   - [ ] svg 이미지 가져오기 : (https://sunshine7e7.tistory.com/26)  
-
+---
 - Git 관련
   - [ ]  작업중인 브랜치를 add , commit하고 branch 변경하기가 애매한 상황 (https://whoyoung90.tistory.com/9)
-
+---
 - SIGNUP 기능
   - [ ]  "proxy": "http://teamdev.shop/"
        - 클라이언트 애플리케이션이 개발 서버에서 실행될 때, 클라이언트의 요청을 프록시 서버로 전달하는 역할을 한다.
