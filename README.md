@@ -28,4 +28,4 @@
        - 장점 : 개발 서버에서 프록시 설정을 사용하면 클라이언트 애플리케이션에서 API 요청을 보낼 때, 프록시 서버를 경유하여 요청을 전달한다. 이는 개발 중에 발생할 수 있는 CORS(Cross-Origin Resource Sharing) 문제를 우회하고, 개발 서버와 API 서버 간의 도메인이 다른 경우에도 요청을 보낼 수 있도록 해준다. 프록시 설정은 주로 개발 환경에서 사용되며, 실제 배포 환경에서는 적용되지 않는다. 배포 환경에서는 API 서버와 클라이언트 애플리케이션이 동일한 도메인에서 호스팅되는 것이 일반적이다.
 
   - [ ] displayname, email, password
-       - 서버 POST 요청 시 필요한 데이터 : name, username, email, password => displayname, email, password ()
+       - 서버 POST 요청 시 필요한 데이터 : name, username, email, password => displayname, email, password => username, email, password
