@@ -14,6 +14,12 @@
 ---
 - Git 관련
   - [ ]  작업중인 브랜치를 add , commit하고 branch 변경하기가 애매한 상황 (https://whoyoung90.tistory.com/9)
+  - [ ]  프론트엔드 작업물 합치기
+       - GitHub repository의 dev branch를 Local dev branch에서 git pull
+       - 새로운 branch test 생성
+       - test branch에서 예를 들어 내가 작업한 feat/signup branch를 git merge
+       - test = dev + feat/signup이 합쳐짐
+  
 ---
 - SIGNUP 기능
   - [ ]  "proxy": "http://teamdev.shop/"
