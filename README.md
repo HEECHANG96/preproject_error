@@ -32,3 +32,7 @@
 
   - [ ] displayname, email, password
        - 서버 POST 요청 시 필요한 데이터 : name, username, email, password => displayname, email, password => username, email, password
+  ---
+ - 팀원간의 소통...
+      - [ ] 프론트 - 백엔드 소통 너무 중요하다..
+      - [ ] 수면 시간의 균일화.. (생각보다 중요)
