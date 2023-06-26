@@ -10,7 +10,12 @@
      - 편집기에서 코드를 작성하는 동안 실시간으로 포맷팅될 수 있다.
 ---
 - CSS 관련
-  - [ ] svg 이미지 가져오기 : (https://sunshine7e7.tistory.com/26)  
+  - [ ] svg 이미지 가져오기 : (https://sunshine7e7.tistory.com/26)
+  - [ ] svg 파일 정리
+![image](https://github.com/HEECHANG96/preproject_progress/assets/70733630/3c340720-d2d9-431e-9bf0-7d4cba213784)
+![image](https://github.com/HEECHANG96/preproject_progress/assets/70733630/ee06ba6f-7d58-490d-b9d2-bf473207fa03)
+
+
 ---
 - Git 관련
   - [ ]  작업중인 브랜치를 add , commit하고 branch 변경하기가 애매한 상황 (https://whoyoung90.tistory.com/9)
@@ -32,7 +37,26 @@
 
   - [ ] displayname, email, password
        - 서버 POST 요청 시 필요한 데이터 : name, username, email, password => displayname, email, password => username, email, password
-  ---
+---
+ - LOGIN 기능
+   - [ ] email, password
+       - 서버 POST 요청 시 필요한 데이터 : email, password => 로그인할 때 유효성 검사(X) => Main Project할 때는 하기
+   - [ ] Oauth 로그인
+       - 백엔드에서 로직을 다 구현해주고 프론트에서 axios로 해당 url에 GET 요청 => CORS 에러 및 302, 40X 에러 다양하게 발생
+   - [ ] HEADER LOGIN 버튼
+       - 로그인 버튼 클릭하면 login page로 이동
+---
+ - LOGOUT 기능
+   - [ ] HEADER에서 LOGOUT 버튼
+       - 버튼 클릭하면 LocalStorage에 있는 accessToken, memberId 삭제
+       - 버튼 클릭하면 store에 저장되어 있는 memberId 값을 null로 설정 
+---
+ - Zustand
+   - [ ] store.ts 구현
+
+![image](https://github.com/HEECHANG96/preproject_progress/assets/70733630/b2d08927-318d-4e7c-8d1b-0cde0366bed3)
+
+---
  - 프리 프로젝트 하면서 느낀점
       - [ ] 프론트 - 백엔드 소통 너무 중요하다..
       - [ ] 수면 시간의 균일화.. (생각보다 중요)
