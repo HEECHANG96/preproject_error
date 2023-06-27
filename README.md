@@ -57,6 +57,16 @@
 ![image](https://github.com/HEECHANG96/preproject_progress/assets/70733630/b2d08927-318d-4e7c-8d1b-0cde0366bed3)
 
 ---
+ - 배포 환경
+   - [ ] 로그인을 하면 헤더가 바뀌지 않음
+       - CORS 에러
+       - config.addExposedHeader("Authorization"); config.addExposedHeader("memberId");
+       - https://kingchan223.tistory.com/230
+       - ![CORS 에러](https://github.com/HEECHANG96/preproject_progress/assets/70733630/f6c7ca90-2ad0-4a38-8bc2-facbad732718)
+   - [ ] 회원가입
+       - if (res.status !== 200) throw res; => if (res.status !== 201) throw res; 서버에서 201코드로 보내줌!
+
+---
  - 프리 프로젝트 하면서 느낀점
       - [ ] 프론트 - 백엔드 소통 너무 중요하다..
       - [ ] 수면 시간의 균일화.. (생각보다 중요)
